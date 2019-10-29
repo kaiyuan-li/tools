@@ -45,6 +45,13 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
+
+nmap <C-n> :NERDTree<CR>
+
 syntax enable
 set t_Co=256
 set background=dark
@@ -53,4 +60,6 @@ set number
 set autoindent
 filetype plugin indent on
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+
+
 ```

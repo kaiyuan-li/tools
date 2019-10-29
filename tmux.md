@@ -24,7 +24,7 @@ bind y setw synchronize-panes
 bind h select-pane -L
 bind j select-pane -D
 bind k select-pane -U
-bind h select-pane -R
+bind l select-pane -R
 
 # enable mouse support for switching panes/windows
 set -g mouse on

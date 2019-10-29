@@ -1,0 +1,42 @@
+#Example tmux config. Add to `~/.tmux.confi`
+```
+# ~/.tmux.conf
+
+# unbind default prefix and set it to ctrl-a
+unbind C-b
+set -g prefix C-a
+bind C-a send-prefix
+
+# make delay shorter
+set -sg escape-time 0
+
+
+### key bindings ###
+bind r source-file ~/.tmux.conf \; display ".tmux.conf reloaded!"
+
+# quickly open a new window
+bind N new-window
+
+# synchronize all panes in a window
+bind y setw synchronize-panes
+
+# pane movement shortcuts
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind h select-pane -R
+
+# enable mouse support for switching panes/windows
+set -g mouse on
+#### copy mode : vim ####
+# set vi mode for copy mode
+setw -g mode-keys vi
+# copy mode using 'Esc'
+unbind [
+bind Escape copy-mode
+# paste using 'p'
+unbind p
+bind p paste-buffer
+
+set-option -g default-shell "/bin/bash"
+```

@@ -16,3 +16,6 @@ Then run in terminal
 System->Settings->Add Input Method
 
 # [Nodejs install](https://github.com/creationix/nvm)
+
+# Stuck on the GRUB page
+[Tested workflow](https://askubuntu.com/questions/978886/i-cant-get-out-of-grub-you-need-to-load-the-kernel-first/1002240)

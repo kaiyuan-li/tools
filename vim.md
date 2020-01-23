@@ -58,9 +58,7 @@ set t_Co=256
 set background=dark
 colorscheme primary
 set number
-set autoindent
-filetype plugin indent on
-set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd FileType python set tabstop=2 | set shiftwidth=0 | set expandtab
 
 
 ```

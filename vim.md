@@ -58,7 +58,10 @@ set t_Co=256
 set background=dark
 colorscheme primary
 set number
-autocmd FileType python set tabstop=2 | set shiftwidth=0 | set expandtab
-
+"tabstop is how many stops TAB shows. softtabstop is how many spaces to add when pressing TAB
+"to check the values: `:verbose set tabstop?`
+autocmd FileType python set tabstop=2 softtabstop=2 shiftwidth=0  expandtab
+set list
+set listchars=tab:>.,trail:.,extends:\#,nbsp:.
 
 ```

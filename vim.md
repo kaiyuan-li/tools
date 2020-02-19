@@ -65,3 +65,14 @@ set list
 set listchars=tab:>.,trail:.,extends:\#,nbsp:.
 
 ```
+
+
+for the code format to work with python:
+```
+pip3 install yapf
+```
+then change the yapf's setting (`~/.config/yapf/style`):
+```
+[style]
+indent_withd = 2
+```

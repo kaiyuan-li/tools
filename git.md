@@ -25,3 +25,8 @@ git pull
 git checkout <branch>
 git merge master
 ```
+
+remove local untracked changes:
+```
+git clean -fd
+```

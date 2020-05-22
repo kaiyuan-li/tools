@@ -6,7 +6,7 @@ update the line to
 `GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"`
 
 Then run in terminal
-`update grub`
+`update-grub`
 
 # Chinese input
 `sudo apt-get install ibus-pinyin`

@@ -1,4 +1,7 @@
 # infinite login loop
+Go to terminal mode:
+`Alt+Shift+F3`
+
 I did this:
 `sudo vi /etc/default/grub`
 

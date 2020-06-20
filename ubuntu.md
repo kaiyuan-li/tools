@@ -1,6 +1,6 @@
 # infinite login loop
 Go to terminal mode:
-`Alt+Shift+F3`
+`Ctrl+Shift+F3`
 
 I did this:
 `sudo vi /etc/default/grub`
@@ -10,6 +10,13 @@ update the line to
 
 Then run in terminal
 `update-grub`
+
+Just log in with startx:
+`ctrl+alt+f3`
+`startx`#
+
+# Sound issue
+`alsamixer`
 
 # Chinese input
 `sudo apt-get install ibus-pinyin`

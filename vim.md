@@ -55,15 +55,12 @@ nmap <C-n> :NERDTree<CR>
 
 syntax enable
 set t_Co=256
-set background=dark
+set background=light
 colorscheme primary
 set number
 "tabstop is how many stops TAB shows. softtabstop is how many spaces to add when pressing TAB
 "to check the values: `:verbose set tabstop?`
-autocmd FileType python set tabstop=2 softtabstop=2 shiftwidth=0  expandtab
-set list
-set listchars=tab:>.,trail:.,extends:\#,nbsp:.
-
+set tabstop=2 softtabstop=2 shiftwidth=0  expandtab
 ```
 
 

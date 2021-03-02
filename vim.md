@@ -55,7 +55,7 @@ nmap <C-n> :NERDTree<CR>
 
 syntax enable
 set t_Co=256
-set background=light
+set background=dark
 colorscheme primary
 set number
 "tabstop is how many stops TAB shows. softtabstop is how many spaces to add when pressing TAB
